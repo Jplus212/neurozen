@@ -47,3 +47,8 @@ h1 i {
 div#cpd-NaN {
   display: none;
 }
+
+.area-kits a:hover,
+.area-kits a:hover :not(s) {
+  text-decoration: none !important;
+}
