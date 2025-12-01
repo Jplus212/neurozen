@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Your NeuroZen Acoustic Protocol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Custom Audio Player Styling tweaks */
+        audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+        }
+        audio::-webkit-media-controls-panel {
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo Updated -->
+            <a href="#">
+                <img 
+                    src="https://cdn.shopify.com/s/files/1/0963/0387/4347/files/Wide_Format_Logo_Black_Transparent_1.png?v=1763481519" 
+                    alt="NeuroZen Logo" 
+                    class="h-10 md:h-12 w-auto"
+                >
+            </a>
+            <a href="#" class="text-sm text-gray-500 hover:text-blue-900 transition">Need Help?</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        
+        <!-- Intro Section -->
+        <div class="text-center mb-12">
+            <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Order Complete</span>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4 mb-2">Access Your Protocol</h1>
+            <p class="text-gray-600 text-lg">Thank you for your purchase! Your audio files are ready below.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+            
+            <!-- Product Image Column -->
+            <div class="bg-white p-2 rounded-2xl shadow-lg border border-gray-100 transform hover:scale-[1.01] transition duration-300">
+                <img 
+                    src="https://cdn.shopify.com/s/files/1/0963/0387/4347/files/neurozen_acoustic_protocol.jpg?v=1764551210" 
+                    alt="NeuroZen Acoustic Protocol Package" 
+                    class="w-full h-auto rounded-xl"
+                >
+                <div class="p-4 text-center">
+                    <h3 class="font-bold text-lg text-gray-800">NeuroZen Acoustic Protocol</h3>
+                    <p class="text-sm text-gray-500">Complete Digital Audio Suite</p>
+                </div>
+            </div>
+			<!-- Audio Files Column -->
+            <div class="space-y-6">
+                
+                <!-- Track 1 Card -->
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-900 to-blue-800 px-6 py-4">
+                        <h2 class="text-white font-bold text-lg flex items-center">
+                            <i class="fas fa-music mr-3 opacity-80"></i> Main Protocol
+                        </h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm mb-4 font-medium">Standard Session (No Vocals)</p>
+                        
+                        <!-- Audio Player -->
+                        <div class="bg-gray-50 rounded-full p-2 mb-4 border border-gray-200">
+                            <!-- REPLACE 'src' WITH YOUR ACTUAL FILE URL -->
+                            <audio controls controlsList="nodownload">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <!-- Download Link -->
+                        <div class="text-center border-t border-gray-100 pt-4 mt-2">
+                             <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" download class="group inline-flex items-center text-sm text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">
+                                <span class="bg-cyan-50 group-hover:bg-cyan-100 p-2 rounded-lg mr-2 transition-colors">
+                                    <i class="fas fa-download"></i>
+                                </span>
+                                Right-Click Here & "Save Link As..."
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 2 Card -->
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="bg-gradient-to-r from-cyan-700 to-cyan-600 px-6 py-4">
+                        <h2 class="text-white font-bold text-lg flex items-center">
+                            <i class="fas fa-microphone mr-3 opacity-80"></i> Guided Session
+                        </h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm mb-4 font-medium">Protocol with Vocal Guide</p>
+                        
+                        <!-- Audio Player -->
+                        <div class="bg-gray-50 rounded-full p-2 mb-4 border border-gray-200">
+                            <!-- REPLACE 'src' WITH YOUR ACTUAL FILE URL -->
+                            <audio controls controlsList="nodownload">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <!-- Download Link -->
+                        <div class="text-center border-t border-gray-100 pt-4 mt-2">
+                            <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" download class="group inline-flex items-center text-sm text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">
+                                <span class="bg-cyan-50 group-hover:bg-cyan-100 p-2 rounded-lg mr-2 transition-colors">
+                                    <i class="fas fa-download"></i>
+                                </span>
+                                Right-Click Here & "Save Link As..."
+                            </a>
+                        </div>
+                    </div>
+                </div>
+				<!-- Instructions / Help Box -->
+                <div class="bg-blue-50 rounded-xl p-4 border border-blue-100">
+                    <div class="flex items-start">
+                        <i class="fas fa-info-circle text-blue-500 mt-1 mr-3"></i>
+                        <div class="text-sm text-blue-800">
+                            <p class="font-semibold mb-1">How to use:</p>
+                            <p class="opacity-80">Listen to the Main Protocol daily. Use the Guided Session if you are new to the acoustic therapy techniques.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+        <p>&copy; 2025 NeuroZen. All rights reserved.</p>
+        <div class="mt-2 space-x-4">
+            <a href="#" class="hover:text-white transition">Privacy Policy</a>
+            <a href="#" class="hover:text-white transition">Terms of Service</a>
+            <a href="#" class="hover:text-white transition">Support</a>
+        </div>
+    </footer>
+
+</body>
+</html>
